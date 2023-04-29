@@ -85,7 +85,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 140px;
+    height: 120px;
     width: 100%;
     padding: 16px;
     box-shadow: 0px 4px 10px -5px #5f5f5f;
@@ -95,7 +95,7 @@ header {
 }
 
 .logo {
-   width: 120px; 
+   width: 100px; 
 }
 .menu {
     display: flex;
@@ -132,7 +132,7 @@ section {
     text-align: center;  
 }
 .btn-cv {
-    background-color: #79f3aa;
+    background-color: #af599e;
     padding: 12px 20px;
     border-radius: 50px;
     font-size: 20px;
@@ -143,7 +143,8 @@ section {
     text-align: center;  
     padding: 16px;
     min-height: 100vh;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 .paisaje-img img{
     width: 1100px;
@@ -153,7 +154,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
-
+    flex-direction: column;
+    box-shadow: 010px 10px 10px 10px #5f5f5f;
 }
