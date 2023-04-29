@@ -3,7 +3,7 @@
 /* Fonts */
 /* Importar aquí la font */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
@@ -54,3 +54,100 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fbfbfb;
+    color: #0f0f0f;
+    font-size: 18px;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+    font-size: 28px;
+}
+p {
+    margin: 20px 0px;
+}
+img {
+    max-width: 100%;
+}
+
+/* Aca van los estilos particulares de cada contenedor
+*/
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    width: 100%;
+    padding: 16px;
+    box-shadow: 0px 4px 10px -5px #5f5f5f;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+   width: 120px; 
+}
+.menu {
+    display: flex;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.menu li a {
+    padding: 16px;
+}
+
+/*section*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+#inicio {
+    justify-content: space-around;
+}
+.presentacion-img {
+    margin-bottom: 20px;
+}
+.presentacion-img img {
+    width: 400px;
+}
+.presentacion {
+    width: 100%;  
+    text-align: center;  
+}
+.btn-cv {
+    background-color: #79f3aa;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    display: inline-block;
+}
+.comunidad {
+    width: 100%;  
+    text-align: center;   
+}
+.paisaje-img img{
+    width: 1100px;
+    border-radius: 20px;
+}
+footer {
+    display: flex;
+
+
+}
