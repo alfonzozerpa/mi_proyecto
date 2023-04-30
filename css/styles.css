@@ -92,6 +92,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    
 }
 
 .logo {
@@ -132,19 +133,30 @@ section {
     text-align: center;  
 }
 .btn-cv {
-    background-color: #af599e;
+    background-color: #eb7fd5;
     padding: 12px 20px;
     border-radius: 50px;
     font-size: 20px;
     display: inline-block;
+    background-image: ;
 }
 .comunidad {
     width: 100%;  
     text-align: center;  
     padding: 16px;
     min-height: 100vh;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    
+}
+.Contacto {
+    width: 100%;  
+    text-align: center;  
+    padding: 16px;
+    min-height: 100vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 .paisaje-img img{
     width: 1100px;
@@ -152,8 +164,9 @@ section {
 }
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     box-shadow: 010px 10px 10px 10px #5f5f5f;
+    background-color:#eb7fd5 ;
 }
